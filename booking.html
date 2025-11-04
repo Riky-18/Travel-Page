@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Booking Form</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+     <header>
+        <h1>Welcome to Travel Explorer</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="booking.html">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="booking">
+  <h2>Book Your Trip</h2>
+  <form>
+    <label for="Location">Your Location:</label>
+    <input type="text" id="place" name="place" placeholder="Enter location" required />
+
+    <label for="destination">Select Destination:</label>
+    <select id="destination" name="destination" required>
+      <option value="">--Choose a destination--</option>
+      <option value="mountains">Mountains</option>
+      <option value="beach">Beach</option>
+      <option value="city">City</option>
+    </select>
+
+    <label for="from-date">From Date:</label>
+    <input type="date" id="from-date" name="from-date" required />
+
+    <label for="to-date">To Date:</label>
+    <input type="date" id="to-date" name="to-date" required />
+
+    <button type="submit">Book Now</button>
+  </form>
+</div>
+</body>
+</html>
