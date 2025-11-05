@@ -132,12 +132,13 @@
         }
 
             .special-attributes {
-                flex-direction: column;
-                gap: 20px;
+                
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 36px;
             }
 
             .attribute {
-                width: 90%;
+                width: 80%;
                 margin: 0 auto;
             }
 
@@ -201,6 +202,17 @@
             <h3>Easy Booking</h3>
             <p>Convenient online booking with flexible payment options and instant confirmation.</p>
         </div>
+        <div class="attribute">
+            <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="Best price icon" />
+            <h3>Best Price Guarantee</h3>
+            <p>Competitive pricing with exclusive deals to get the most value for your money.</p>
+        </div>
+        <div class="attribute">
+            <img src="https://cdn-icons-png.flaticon.com/512/201/201818.png" alt="24/7 service icon" />
+            <h3>24/7 Customer Service</h3>
+            <p>Round-the-clock assistance to ensure your travel experience is hassle-free.</p>
+        </div>
+
     </section>
 
     <section class="section newsletter" aria-label="Subscribe to newsletter"
